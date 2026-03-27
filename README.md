@@ -95,7 +95,7 @@ Frontend (React)\
 
 ### 1. Clone Repository
 
-git clone https://github.com/your-username/stock-price-prediction.git\
+git clone https://github.com/yashch3101/Stock-Price-Prediction
 cd stock-price-prediction
 
 ------------------------------------------------------------------------
@@ -120,7 +120,7 @@ npm run dev
 
 cd ml-service\
 python -m venv venv\
-venv`\Scripts`{=tex}`\activate  `{=tex}
+venv\scripts\activate
 
 pip install flask pandas numpy scikit-learn tensorflow yfinance
 vaderSentiment requests python-dotenv
