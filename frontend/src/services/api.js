@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://stock-price-prediction-backend-w0l1.onrender.com/api";
 
 export const getStockData = async (stock) => {
   const res = await axios.post(`${BASE_URL}/stock-data`, { stock });

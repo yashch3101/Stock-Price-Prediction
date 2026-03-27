@@ -26,7 +26,7 @@ app.get("/", (req, res) => {
 // Prediction Route
 app.post("/api/predict", async (req, res) => {
   try {
-    const response = await axios.post("http://localhost:8000/predict", {
+    const response = await axios.post("https://stock-price-prediction-ml-xmjf.onrender.com/predict", {
       stock: req.body.stock,
     });
 
@@ -40,7 +40,7 @@ app.post("/api/predict", async (req, res) => {
 // Stock Data
 app.post("/api/stock-data", async (req, res) => {
   try {
-    const response = await axios.post("http://localhost:8000/stock-data", {
+    const response = await axios.post("https://stock-price-prediction-ml-xmjf.onrender.com/stock-data", {
       stock: req.body.stock,
     });
 
@@ -72,7 +72,7 @@ app.post("/api/save", async (req, res) => {
 
 app.post("/api/sentiment", async (req, res) => {
   try {
-    const response = await axios.post("http://localhost:8000/sentiment", {
+    const response = await axios.post("https://stock-price-prediction-ml-xmjf.onrender.com/sentiment", {
       stock: req.body.stock,
     });
 
