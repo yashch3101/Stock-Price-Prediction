@@ -1,6 +1,10 @@
 flask
-pandas
 numpy
+pandas
 scikit-learn
 tensorflow
 yfinance
+vaderSentiment
+requests
+python-dotenv
+gunicorn
